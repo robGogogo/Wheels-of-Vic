@@ -3,7 +3,7 @@
 const BILLBOARD = [
   {
     // Meets
-    src: "images/meets.jpg",
+    src: "images/Meets.jpg",
     g: ["#1d4a5c", "#2f7a8a"],
     title: "Fall meet",
     text: "Date and place to be announced.",
