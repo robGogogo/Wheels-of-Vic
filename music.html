@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" class="cover">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Music | Wheels of Vic</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main>
+      <div class="wrap page-title">
+        <h1>
+          Music
+          <span class="eq" aria-hidden="true"
+            ><i></i><i></i><i></i><i></i><i></i
+          ></span>
+        </h1>
+      </div>
+      <section>
+        <div class="wrap">
+          <p class="lede">
+            Live jazz and R&amp;B from Victoria’s local artists. Everyone is
+            welcome.
+          </p>
+          <div class="event">
+            <div class="date">TBA</div>
+            <div>
+              <h3>Wheels of Vic Music Festival</h3>
+              <p>Date and venue to be announced.</p>
+            </div>
+            <a class="btn hot" href="#updates">Get updates</a>
+          </div>
+        </div>
+      </section>
+      <section class="alt">
+        <div class="wrap">
+          <h2>Lineup</h2>
+          <p class="lede">
+            Artists will be announced here. These are placeholders.
+          </p>
+          <div class="grid">
+            <div class="card">
+              <div class="plate" style="background: #2b3cff">Artist one</div>
+              <div class="meta">
+                <b>Artist one</b><span class="tag">Jazz</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="plate" style="background: #d9391f">Artist two</div>
+              <div class="meta">
+                <b>Artist two</b><span class="tag">R&amp;B</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="plate" style="background: #1d4a5c">Artist three</div>
+              <div class="meta">
+                <b>Artist three</b><span class="tag">Soul</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="plate" style="background: #3b5b45">Artist four</div>
+              <div class="meta">
+                <b>Artist four</b><span class="tag">Jazz</span
+                ><span class="tag">R&amp;B</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="wrap">
+          <h2>Drive sessions</h2>
+          <p class="lede">
+            A film series where a local artist plays a set in or around a
+            member’s car. Coming soon.
+          </p>
+        </div>
+      </section>
+      <section class="alt" id="perform">
+        <div class="wrap">
+          <h2>Perform with us</h2>
+          <p class="lede">
+            Local jazz and R&amp;B artists, send us your music.
+          </p>
+          <form class="form" data-demo="Thanks. We will be in touch.">
+            <input
+              required
+              placeholder="Artist or band name"
+              aria-label="Artist or band name"
+            /><input
+              type="email"
+              required
+              placeholder="Email"
+              aria-label="Email"
+            />
+            <select aria-label="Genre">
+              <option>Jazz</option>
+              <option>R&amp;B</option>
+              <option>Soul</option>
+              <option>Other</option>
+            </select>
+            <input
+              placeholder="Link to your music"
+              aria-label="Link to your music"
+            /><textarea
+              placeholder="Tell us about your sound"
+              aria-label="About you"
+            ></textarea>
+            <button class="btn hot" type="submit">Send application</button>
+          </form>
+          <div class="msg" role="status"></div>
+        </div>
+      </section>
+      <div id="updates"></div>
+      <section class="dark">
+        <div class="wrap">
+          <h2>Join the list</h2>
+          <p class="lede">
+            Meet dates, driver stories, music and film drops. Nothing else.
+          </p>
+          <form class="join" data-demo="Thanks. You are on the list.">
+            <input
+              type="email"
+              required
+              placeholder="you@email.com"
+              aria-label="Email address"
+            /><button class="btn hot" type="submit">Join the list</button>
+          </form>
+          <div class="msg" role="status"></div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/stories.js"></script>
+    <script src="js/layout.js"></script>
+  </body>
+</html>
